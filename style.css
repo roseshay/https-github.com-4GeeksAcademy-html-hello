@@ -1,16 +1,51 @@
 body{ 
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    height:100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
     background-color: black;
+
+
 }
 .post{
+    height: auto;
+    width: 460px;
+    margin: 55px auto;
+    
+    
+    
     background-color: aliceblue;
 }
 .post-header{
+    width: 100%;
     display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
-    justify-content: space-between;
+    
 }
-
+.post-header-titles p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.html5icon,.ellipsis-vertical{
+ padding-top: 10px;
+ 
+}
+.ellipsis-vertical{
+    margin-left: auto;
+    margin-right: 8px;
+}
+.html5icon{
+    margin-right:5px;
+    margin-left:8px
+}
+.post-img img{
+    width:100%;
+}
+#post-icon{
+    display:flex;
+}
+.mark{
+    margin-left: auto;
+    margin-right: 8px;
+}
